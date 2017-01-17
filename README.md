@@ -5,3 +5,5 @@
 ####主要写的是UITextView、UIMenuItem、UISwitch、UIProgressView、UISlider等控件
 ##swift-03
 ####主要是UIAlertController的用法
+##swift-04
+####主要是navigation+tabbar的框架的简单使用
