@@ -9,3 +9,5 @@
 ####主要是navigation+tabbar的框架的简单使用
 ##swift-05
 ####主要介绍UIPickerView的简单使用
+##swift-06
+####主要介绍微调器UIStepper的简单使用
