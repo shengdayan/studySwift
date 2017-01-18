@@ -36,20 +36,14 @@ class ViewController: UIViewController {
         
     }
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        super.viewDidAppear(animated)
-//        let alertVC = UIAlertController(title: "欢迎进入swift", message: "这是一个新的旅程", preferredStyle: .actionSheet)
-//        let action = UIAlertAction(title: "ok", style: .default, handler: nil)
-//        alertVC.addAction(action)
-//        self.present(alertVC, animated: true, completion: nil)
-//    }
-
-    override func viewWillAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         let alertVC = UIAlertController(title: "欢迎进入swift", message: "这是一个新的旅程", preferredStyle: .actionSheet)
         let action = UIAlertAction(title: "ok", style: .default, handler: nil)
         alertVC.addAction(action)
         self.present(alertVC, animated: true, completion: nil)
     }
+
     func clickButton(_ button:UIButton) -> Void {
         //字符串插值
         let num = 3
