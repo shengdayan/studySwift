@@ -13,4 +13,6 @@
 ####主要介绍微调器UIStepper的简单使用
 ##swift-07
 ####主要介绍NSArray的简单用法
+##swift-08
+####简单介绍NSString的使用
 
